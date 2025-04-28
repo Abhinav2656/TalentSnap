@@ -29,15 +29,15 @@ TalentSnap solves these problems by leveraging NLP and AI to create a more effic
 ## 🛠️ Technology Stack
 
 | Layer | Technology |
-|-------|------------|
+|:---|:---|
 | **Backend API** | FastAPI |
-| **NLP/AI** | spaCy, Transformers (HuggingFace), Scikit-learn |
+| **NLP/AI** | spaCy (entity extraction), **Groq API** (LLM-based resume improvement and feedback) |
 | **PDF Parsing** | PyMuPDF (`fitz`) |
-| **Similarity Matching** | Sentence Transformers, TF-IDF |
-| **Database** | PostgreSQL (SQLite for development) |
-| **Frontend** | React.js / Streamlit |
+| **Similarity Matching** | TF-IDF (Scikit-learn) |
+| **Database** | PostgreSQL (or SQLite for development) |
+| **Frontend (Optional)** | React.js / Streamlit |
 | **Data Visualization** | Plotly / Matplotlib |
-| **Deployment** | Docker, Render.com or Railway.app |
+| **Deployment** | Docker, Render.com, Railway.app |
 | **Version Control** | Git, GitHub |
 
 ## 📋 Installation & Setup
