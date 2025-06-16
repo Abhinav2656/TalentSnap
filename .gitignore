@@ -1,0 +1,36 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments
+sample_resumes/
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Ignore environment variable/config files
+.env
+.env.*
+*.env
+*.env.*
+
+# Ignore IDE-specific files (optional but recommended)
+.vscode/
+.idea/
+
+# Bytecode files
+*.pyc
+*.pyd
+
+# Logs and dumps
+*.log
+*.pot
+*.mo
+
+# Ignore local test/output files
+*.sqlite3
+*.db
+.DS_Store

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Python Developer",
+    "company": "TechCorp",
+    "keywords": ["Python", "Django", "Flask", "API", "SQL", "Web Development"]
+  },
+  {
+    "title": "Data Scientist",
+    "company": "DataSystems",
+    "keywords": ["Python", "Machine Learning", "SQL", "Statistics", "Data Analysis"]
+  },
+  {
+    "title": "Backend Engineer",
+    "company": "ServerStack",
+    "keywords": ["Python", "API", "Django", "Database", "REST"]
+  },
+  {
+    "title": "AI Engineer",
+    "company": "DeepMind Labs",
+    "keywords": ["Python", "Machine Learning", "Deep Learning", "NLP", "AI"]
+  },
+  {
+    "title": "Data Analyst",
+    "company": "BusinessIntel",
+    "keywords": ["SQL", "Excel", "Statistics", "Data Visualization"]
+  }
+]
