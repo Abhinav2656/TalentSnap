@@ -1,36 +1,89 @@
-# Ignore Python cache files
+# =====================
+# PYTHON (FastAPI backend)
+# =====================
+
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyc
+*.pyd
 
-# Ignore virtual environments
-sample_resumes/
+# Virtual environments
 env/
 venv/
-ENV/
 .venv/
+ENV/
 .ENV/
 
-# Ignore environment variable/config files
+# Environment variables
 .env
 .env.*
 *.env
 *.env.*
 
-# Ignore IDE-specific files (optional but recommended)
+# Python log / db / output
+*.log
+*.db
+*.sqlite3
+
+# =====================
+# NODE.JS (frontend)
+# =====================
+
+# Node dependencies
+node_modules/
+
+# Lock files (optional)
+package-lock.json
+package.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build artifacts
+dist/
+build/
+.next/
+out/
+public/css/
+*.css
+*.css.map
+*.min.css
+
+# Cache
+.npm/
+.cache/
+.temp/
+
+# Environment variables
+*.env.local
+*.env.development
+*.env.production
+*.env.test
+
+# =====================
+# TAILWIND (CSS Output)
+# =====================
+
+*.css
+*.css.map
+tailwind.config.js
+postcss.config.js
+
+# =====================
+# COMMON (IDE, OS, misc.)
+# =====================
+
 .vscode/
 .idea/
-
-# Bytecode files
-*.pyc
-*.pyd
-
-# Logs and dumps
-*.log
-*.pot
-*.mo
-
-# Ignore local test/output files
-*.sqlite3
-*.db
 .DS_Store
+Thumbs.db
+
+# Optional: Test / Coverage
+coverage/
+*.cover
+*.py,cover
+
+# Zip, tarballs
+*.zip
+*.tar.gz
+*.rar
